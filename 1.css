@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.up {
+    width: 100%;
+    background-image: url('1.jpg');
+    height: 621.5px;
+    /* background: rgb(255,115,0);
+    background: linear-gradient(180deg, rgba(255,115,0,0.5942752100840336) 0%, rgba(0,212,255,0) 100%); */
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* padding: 50px 75px; */
+    display: flex;
+
+}
+.gradient {
+    height: 621.5px;
+    width: 100%;
+    background: rgb(255, 187, 0);
+    background: linear-gradient(180deg, rgba(255,115,0,0.5942752100840336) 0%, rgba(0,212,255,0) 100%);
+    position: absolute;
+    /* margin: -50px -75px; */
+}
+.header {
+    margin: 40px 75px;
+    height: 40px;
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.headtext {
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+width: 30%;
+}
+.zapis {
+    width: 180px;
+    height: 40px;
+}
+.medeum {
+    font-family: 'Fira Sans', sans-serif;
+    color:white;
+    font-size: 60px;
+    padding-left: 75px;
+    width: 30%;
+}
+.lower {
+
+    padding-left: 75px;
+    width: 35%; 
+}
+.lower p {
+    color:rgb(173, 159, 159);
+    font-family: 'Literata', serif;
+}
+.main {
+    padding: 40px 33%;
+    justify-content: center;
+}
+.main p {
+    padding: 0 25%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+li {
+    padding-top: 20px;
+    font-family: 'Istok Web', sans-serif;
+    min-height: 55px;
+    list-style: none;
+    background: url(2.png) no-repeat 0 4px;
+    padding-left: 80px;
+}
+ul {
+    padding: 0px;
+}
